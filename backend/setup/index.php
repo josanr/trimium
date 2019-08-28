@@ -3,7 +3,7 @@
 use App\App;
 
 require_once __DIR__ . "/../vendor/autoload.php";
-require_once __DIR__ . "/../src/config/main.php";
+require_once __DIR__ . "/../config/main.php";
 try {
     $dbName = $config["db"]["dbname"];
     echo "Connect to DB host.\n";
