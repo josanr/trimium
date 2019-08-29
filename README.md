@@ -9,3 +9,9 @@ Run:  php setup/index.php
 Result: В базе данных должна появиться таблица с импортированными данными из файла.
 
 
+Задача 2.
+Location: backend/public/index.php
+Run: php -S localhost:8000
+Link: http://localhost:8000/setup/
+
+

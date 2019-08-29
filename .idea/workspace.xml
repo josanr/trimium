@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f35ab5-b2b9-457e-9d22-c3d0ace25e0c" name="Default Changelist" comment="moved config directory outside of src directory">
-      <change afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/phpunit.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/public/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/App/App.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/App/Request.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/App/Route.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/Controllers/Base.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/Controllers/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/Controllers/Setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/Errors/InternalError.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/Views/BaseView.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/src/Views/LayoutView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trimium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trimium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/Views/Setup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тестовое задание. Backend.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Тестовое задание. Backend.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/phpunit.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/Views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,6 +129,8 @@
       <recent name="$PROJECT_DIR$/backend/src/App" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/Views" />
+      <recent name="$PROJECT_DIR$/backend/src/Controllers" />
       <recent name="$PROJECT_DIR$/backend/src" />
       <recent name="$PROJECT_DIR$/backend/src/App" />
       <recent name="$PROJECT_DIR$/backend/public/setup" />
@@ -167,6 +168,11 @@
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@478676f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@478676f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1c1adcec" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
           </expand>
           <select />
         </treeState>
@@ -184,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566990456562</updated>
-      <workItem from="1566990457691" duration="14290000" />
+      <workItem from="1566990457691" duration="29557000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566992310253</created>
@@ -221,7 +227,28 @@
       <option name="project" value="LOCAL" />
       <updated>1567008394756</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="IDE configuration">
+      <created>1567009337137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567009337137</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved config directory outside of src directory">
+      <created>1567009353726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567009353726</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added dev configurations">
+      <created>1567009401695</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567009401695</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +269,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Exercise 1" />
     <MESSAGE value="added test framework to project" />
+    <MESSAGE value="IDE configuration" />
     <MESSAGE value="moved config directory outside of src directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved config directory outside of src directory" />
+    <MESSAGE value="added dev configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dev configurations" />
   </component>
 </project>
