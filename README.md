@@ -25,3 +25,13 @@ Comment:
 admin conf.d # nginx -t
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+Задача 3.
+Location: administration/ex3/
+Run: -
+Comment: 
+Конфигурация настроена для бэкенда на том же сервере на 3000 порту.
+admin conf.d # nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
