@@ -43,7 +43,8 @@ try {
             personal_birthdate DATE         NOT NULL,
             work_position      TEXT         NOT NULL,
             region             VARCHAR(256) NOT NULL,
-            city               VARCHAR(256) NOT NULL
+            city               VARCHAR(256) NOT NULL,
+            PRIMARY KEY (id)
         ) ENGINE = InnoDB
           CHARACTER SET utf8
           COLLATE utf8_bin;";
