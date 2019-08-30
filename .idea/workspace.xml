@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f35ab5-b2b9-457e-9d22-c3d0ace25e0c" name="Default Changelist" comment="exercise #3">
-      <change afterPath="$PROJECT_DIR$/administration/ex3/conf.d/main.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/fastcgi.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/fastcgi_params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/koi-utf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/koi-win" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/mime.types" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/scgi_params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/ssl/ca.cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/ssl/dev.numina.local.cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/ssl/dev.numina.local.key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/ssl/dhparam.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/uwsgi_params" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/administration/ex3/win-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +51,15 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="package.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,20 +122,22 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/backend/src/App" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/Views" />
       <recent name="$PROJECT_DIR$/backend/src/Controllers" />
       <recent name="$PROJECT_DIR$/backend/src" />
       <recent name="$PROJECT_DIR$/backend/src/App" />
       <recent name="$PROJECT_DIR$/backend/public/setup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/Models" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend/src/App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,13 +152,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/frontend/build">
+      <method v="2" />
+    </configuration>
     <configuration name="RouteTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="App\RouteTest" file="$PROJECT_DIR$/backend/tests/App/RouteTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="PHPUnit.RouteTest" />
       </list>
     </recent_temporary>
@@ -169,12 +174,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@478676f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b12dc733" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@478676f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1c1adcec" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b12dc733" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5408194c" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -194,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566990456562</updated>
       <workItem from="1566990457691" duration="30273000" />
-      <workItem from="1567157790910" duration="2699000" />
+      <workItem from="1567157790910" duration="9940000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566992310253</created>
@@ -266,7 +271,49 @@
       <option name="project" value="LOCAL" />
       <updated>1567159244832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="exercise #3">
+      <created>1567160774589</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567160774589</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bugFix: forgot about synthetic id">
+      <created>1567174727295</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567174727295</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bugFix: error in definition">
+      <created>1567175054250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567175054250</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added new method">
+      <created>1567176449817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567176449817</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added profile model and repository">
+      <created>1567176489734</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567176489734</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added api endpoint">
+      <created>1567176506421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567176506421</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +341,11 @@
     <MESSAGE value="added dev configurations" />
     <MESSAGE value="exercise #2" />
     <MESSAGE value="exercise #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise #3" />
+    <MESSAGE value="bugFix: forgot about synthetic id" />
+    <MESSAGE value="bugFix: error in definition" />
+    <MESSAGE value="added new method" />
+    <MESSAGE value="added profile model and repository" />
+    <MESSAGE value="added api endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="added api endpoint" />
   </component>
 </project>
