@@ -33,6 +33,7 @@ try {
     $sql = "
         CREATE TABLE IF NOT EXISTS {$dbName}.users
         (
+            id                 INT NOT NULL AUTO_INCREMENT,
             active             CHAR(1)      NOT NULL,
             name               VARCHAR(256) NOT NULL,
             last_name          VARCHAR(256) NOT NULL,

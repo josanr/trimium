@@ -28,6 +28,7 @@ class Setup extends Base
             $sql = "
                 CREATE TABLE IF NOT EXISTS users
                 (
+                    id                 INT NOT NULL AUTO_INCREMENT,
                     active             CHAR(1)      NOT NULL,
                     name               VARCHAR(256) NOT NULL,
                     last_name          VARCHAR(256) NOT NULL,
