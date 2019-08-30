@@ -1,0 +1,34 @@
+{
+  "name": "trimium-frontend",
+  "version": "1.0.0",
+  "description": "test exercise",
+  "main": "app.js",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router": "^5.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.0",
+    "@types/xml2js": "^0.4.4",
+    "chai": "^4.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.ts"
+  },
+  "author": "Ruslan Josan <josanr@gmail.com>",
+  "license": "MIT"
+}
