@@ -28,4 +28,9 @@ class Request
         return isset($data[$name]) ? $data[$name] : $defaultValue;
     }
 
+    public function getUri()
+    {
+        return $_SERVER['REQUEST_URI'];
+    }
+
 }
