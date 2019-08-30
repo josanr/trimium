@@ -15,3 +15,13 @@ Run: php -S localhost:8000
 Link: http://localhost:8000/setup/
 
 
+**Бэкенд (администрирование)**
+
+Задача 2.
+Location: administration/ex2/
+Run: -
+Comment: 
+Конфигурация настроена для бэкенда на том же сервере на 3000 порту.
+admin conf.d # nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful

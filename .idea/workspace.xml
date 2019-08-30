@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f35ab5-b2b9-457e-9d22-c3d0ace25e0c" name="Default Changelist" comment="moved config directory outside of src directory">
-      <change afterPath="$PROJECT_DIR$/backend/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/App/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/App/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/App/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Controllers/Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Controllers/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Controllers/Setup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Errors/InternalError.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Views/BaseView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Views/LayoutView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/Views/Setup.php" afterDir="false" />
+    <list default="true" id="69f35ab5-b2b9-457e-9d22-c3d0ace25e0c" name="Default Changelist" comment="exercise #2">
+      <change afterPath="$PROJECT_DIR$/administration/ex2/conf.d/main.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/fastcgi.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/fastcgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/koi-utf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/koi-win" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/scgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/uwsgi_params" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/administration/ex2/win-utf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Тестовое задание. Backend.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Тестовое задание. Backend.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -190,7 +188,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566990456562</updated>
-      <workItem from="1566990457691" duration="29557000" />
+      <workItem from="1566990457691" duration="30273000" />
+      <workItem from="1567157790910" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1566992310253</created>
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567009401695</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="exercise #2">
+      <created>1567108916217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567108916217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +265,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -272,6 +280,7 @@
     <MESSAGE value="IDE configuration" />
     <MESSAGE value="moved config directory outside of src directory" />
     <MESSAGE value="added dev configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dev configurations" />
+    <MESSAGE value="exercise #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise #2" />
   </component>
 </project>
