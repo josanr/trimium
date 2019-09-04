@@ -37,7 +37,7 @@
   },
   "scripts": {
     "test": "mocha -r ts-node/register tests/**/*.ts",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "author": "Ruslan Josan <josanr@gmail.com>",
