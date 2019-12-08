@@ -4,7 +4,7 @@ $config = [
     "db" => [
         "dbname"=> "testdb",
         "username" => "root",
-        "password" => "InitPr0",
+        "password" => "root",
         "host" => '172.17.0.2'
     ]
 ];
